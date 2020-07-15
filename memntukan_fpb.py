@@ -27,7 +27,6 @@ def hitung_fpb(x, y):
         x, y = y, x % y
         return x
 
-
 # num1 = 200
 # num2 = 150
-print(f'fpb dari {num1} dan {num2} = {hitung_fpb(num1, num2)}')
+print(f'fpb dari {num1} dan {num2} dengan algoritma euclidean = {hitung_fpb(num1, num2)}')
