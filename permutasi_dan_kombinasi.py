@@ -1,6 +1,6 @@
 ''' program yang menampilkan permutasi dari list '''
 
-from itertools import permutations, combinations
+from itertools import permutations, combinations, combinations_with_replacement
 
 #
 # perm = permutations([1,2,3])
@@ -28,7 +28,12 @@ from itertools import permutations, combinations
 #     print(i)
 
 
-comb = combinations([1,1,3], 2)
+# comb = combinations([1,1,3], 2)
+#
+# for i in comb:
+#     print(i)
+
+comb = combinations_with_replacement([1,2,3], 2)
 
 for i in comb:
     print(i)
